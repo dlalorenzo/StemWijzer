@@ -1,30 +1,12 @@
-// console.log(subjects);
-// var counter = 0;
+var title = document.getElementById('title');
+var statement = document.getElementById('statement');
 
-// function start(){
-// 	subjects.[counter](element => {
-// 		console.log(element.title);
-// 	});
-// }
+var eens = document.getElementById('vragenEens');
+var none = document.getElementById('vragenGeen');
+var oneens = document.getElementById('vragenOneens');
 
-
-
-// console.log(subjects);
-// console.log(parties);
-
-// console.log(parties[0].name);
-// console.log(subjects[0].statement);
-
-
-
-function test(){
-
-var statement = subjects[0].statement;	
-var title = subjects[0].title;
-console.log(statement);
-console.log(title);
-document.getElementById("title").innerHTML = title;
-document.getElementById("statement").innerHTML = statement;
-}
-
-test();
+	title.innerHTML = ('title');
+	statement.innerHTML= ('hallo')
+	eens.innerHTML = ('Eens')
+	none.innerHTML = ('Geen van beide')
+	oneens.innerHTML = ('Oneens')

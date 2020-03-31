@@ -65,9 +65,9 @@ a{
 .icon{
 	margin-left: 100px;
 	margin-right: 20px;
-	margin-top: -20px;
-	width: 100px;
-	height:100px;
+	margin-top:15px;
+	width: 50px;
+	height:50px;
 }
 .description-icon{
 	margin-top: 10px;
@@ -159,7 +159,7 @@ hr{
 	margin: 15px;
 	width: 25px;
 }
-.vragen{
+#vragenEens{
 	margin:7px;
 	border:transparent;
 	background-color: black;
@@ -168,12 +168,41 @@ hr{
     width: 188px;
     height: 68px;
     font-size: 18px;
-
 }
-.vragen:hover{
+#vragenEens:hover{
 	background-color: #01B4DC;
   	transition-duration:0.2s ;
 }
+#vragenGeen{
+	margin:7px;
+	border:transparent;
+	background-color: black;
+	color:white;
+    border-radius: 6px;
+    width: 188px;
+    height: 68px;
+    font-size: 18px;
+}
+#vragenGeen:hover{
+	background-color: #01B4DC;
+  	transition-duration:0.2s ;
+}
+
+#vragenOneens{
+	margin:7px;
+	border:transparent;
+	background-color: black;
+	color:white;
+    border-radius: 6px;
+    width: 188px;
+    height: 68px;
+    font-size: 18px;
+}
+#vragenOneens:hover{
+	background-color: #01B4DC;
+  	transition-duration:0.2s ;
+}
+
 #back{
 	width: 50px;
     height: 50px;
